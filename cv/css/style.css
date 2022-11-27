@@ -1,0 +1,23 @@
+  /*----------------------------------------TAG SELECTORS--------------------------------*/
+
+body{
+    background-color:  #f5f5cb;
+    color: #7D8F69;
+  }
+
+  hr{
+
+    color: #A9AF7E;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+
+  }
+
+  /*----------------------------------------CLASS SELECTORS--------------------------------*/
+  .heading{
+    color: #476145;
+  }
+
+  /*----------------------------------------ID SELECTORS--------------------------------*/
