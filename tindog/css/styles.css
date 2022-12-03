@@ -127,7 +127,7 @@ position: relative;
     background-color: #fff;
 }
 .pricing-row{
-    padding: 4rem 0;
+    padding: 4rem 0rem;
 }
 .pricing-head{
     font-size: 2.5rem;
@@ -161,6 +161,12 @@ position: relative;
     padding: 0 .5rem 0;
 }
 @media only screen and (max-width: 992px){
+    .container-fluid{
+        padding: 0 3% 0;
+    }
+    .pricing-row{
+        padding: 4rem 0;
+    }
     .title-contents{
         text-align: center;
     }
@@ -172,4 +178,5 @@ position: relative;
     #features{
         position: static;
     }
+    
 }
