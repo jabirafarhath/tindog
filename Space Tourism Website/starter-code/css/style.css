@@ -1,0 +1,104 @@
+body {
+
+    color: aliceblue;
+    text-align: center;
+    background-image: url("../assets/home/background-home-desktop.jpg");
+    background-size: cover;
+}
+
+/*-----------------------CLASS SELECTORS-------------------------------*/
+
+.container{
+    position: relative;
+}
+.navbar {
+    width: 60%;
+    background-color: #D0D6F9;
+    position: relative;
+    margin: 2rem auto;
+    height: 4rem;
+    left: 16rem;
+}
+
+.nav-texts {
+    display: inline-block;
+    position: absolute;
+    left: 5rem;
+    margin-top: 20px;
+}
+
+.nav-link {
+    display: inline-block;
+    margin-right: 3rem;
+
+}
+
+.nav-link-text {
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    color: white;
+
+
+}
+
+.text-section{
+    width: 365px;
+    height: 280px;
+    display: inline-block;
+    color: white;
+    text-align: left;
+    position: absolute;
+    top: 200px;
+    left: 130px;
+
+}
+.t1{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin-bottom: 6px;
+
+
+
+}
+
+.space{
+    font-family: 'Bellefair', serif;
+    font-size: 115px;
+    margin: 2px 0;
+    padding: 10px 0;
+    padding-left: 1px;
+    letter-spacing: 5px;
+    font-weight: normal;
+
+}
+.t2{
+    font-family: 'Barlow Condensed', sans-serif;
+    margin: 0;
+    line-height: 28px;
+    letter-spacing: 1px;
+
+}
+
+.explore-section {
+    background-color: white;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 320px;
+    right: 100px;
+}
+
+.explore-text {
+    color: black;
+    display: inline-block;
+    font-family: 'Bellefair', serif;
+    font-size: 2rem;
+    position: relative;
+    top: 25%;
+}

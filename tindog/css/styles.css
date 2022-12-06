@@ -160,9 +160,12 @@ position: relative;
 .media-icon{
     padding: 0 .5rem 0;
 }
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 1028px){
     .container-fluid{
         padding: 0 3% 0;
+    }
+    #testimonials .carousel-item{
+        padding: 3rem 3% 0;
     }
     .pricing-row{
         padding: 4rem 0;
